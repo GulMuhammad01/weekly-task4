@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+/* first section starts here */
+}
+.sec-unity {
+    background-image: url(./1_zOrrrU5zhOqd1Jz0quZu2A.png);
+    background-size: cover;
+    background-position: left;
+}
+.logo-unity {
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    font-size: 60px;
+    letter-spacing: 15px;
+    padding-left: 500px;
+
+
+}
+.header {
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 20px;
+    padding: 250px;
+    text-shadow: 50px rgb(241, 236, 227);
+}
+.header h1 {
+    font-weight: 300;
+}
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+.nav-bar ul {
+    list-style: none;
+    font-size: 4rem;
+    margin: 0px 10px;
+
+}
+.nav-bar li {
+    display: inline-flex;
+    margin: 10px 80px;
+    color: rgba(255, 255, 255, 0.815);
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 500px;
+    margin: 100px;
+}
+.nav-bar li:hover {
+    font-weight: 500;
+    color:white;
+    border-bottom: 10px solid greenyellow;
+}
+/* first section ENDS here */
+
+/* second section starts here */
+.sec-digital {
+    text-align: center;
+    padding: 80px 0px;
+    
+}
+.head-digit h4 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+}
+
+.head-digit p {
+    font-size: 3.5rem;
+    padding: 5px 2100px;
+}
+.sec-learn {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+.sec-background {
+    background-image: url(./01.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 80%;
+    height: 70%;
+    
+
+}
+.sec-background h3 {
+    padding: 500px 0px;
+    font-size: 5rem;
+    padding-left: 800px;
+    color: rgb(219, 20, 20);
+}
+.sec-learn h6 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    
+
+}
+.sec-learn h1 {
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+.sec-learn span {
+    color: orange;
+}
+.sec-experimnt h6 {
+        padding: 0px;
+        margin: 0px;
+        text-align: initial;
+}
+.sec-experimnt h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: initial;
+}
+/* second section ends here */
+
+/* Third section starts here */
+.sec-members {
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    /* font-size: 5rem; */
+    text-transform: uppercase;
+}
+.sec-members h3{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px;
+}
+.sec-members h2{
+    font-size: 8rem;
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+}
+.members {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 1826px;;
+}
+.members img {
+    width: 100%;
+    /* margin: 0px 60px; */
+}
+.members h4 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.members h6 {
+    text-align: initial;
+    font-size: 3rem;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.members span:hover {
+    background-color: chartreuse;
+}
+.icons {
+    font-size: 50px;
+    display: flex;
+}
+.icons i {
+    margin: 5px 10px;
+}
+.coloumn {
+    display: inline;
+}
+/* Third ends starts here */
+
+/* Fourth section starts here */
+.sec-feature {
+    padding: 250px 0px;
+}
+.sec-work h4 {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.sec-feature h1 {
+    text-align: center;
+    font-size: 12rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    margin: 0px;
+}
+/* Fourth section ends here */
+
+/* Fiveth section starts here */
+.sec-magaxine {
+    padding: 300px 541px;
+}
+.sec-imgs {
+    display: flex;
+    justify-content: space-around;
+}
+/* Fiveth section ends here */
+
+/* Sixth section starts here */
+.sec-last {
+    padding-top: 50px 0px;
+} 
+.sec-contact-us {
+    display: flex;
+    justify-content: center;
+}
+.sec-contact-us h3 {
+    font-size: 4rem;
+    border: 2px solid black;
+    padding: 10px 70px;
+    text-transform: uppercase;
+}
+.sec-contact-us h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    
+}
+.col-4 {
+    padding: 10px 200px;
+}
+.col-4 a {
+    color: chartreuse;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+.sec-contact-us i {
+    font-size: 6rem;
+    padding: 0px 30px;
+}
+.contact-us {
+    padding: 0px;
+    margin: 0px;
+}
+.nav-bar-last {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.nav-bar-last li {
+    font-size: 3rem;
+    display: inline-flex;
+    margin: 50px 30px;
+    text-transform: uppercase;
+}
+.nav-bar-last h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding: 0px 500px;
+}
+nav {
+    display: flex;
+}
+/* Sixth section ends here */
